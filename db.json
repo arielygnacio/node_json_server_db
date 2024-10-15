@@ -1,0 +1,83 @@
+{
+  "empleados": [
+    {
+      "nombre": "Miguel",
+      "apellido": "Campos",
+      "proyectos": [
+        {
+          "nombre": "Sistema de Gestión"
+        },
+        {
+          "nombre": "Plataforma Web"
+        }
+      ],
+      "id": "b550"
+    },
+    {
+      "nombre": "Ana",
+      "apellido": "Lopez",
+      "proyectos": [
+        {
+          "nombre": "Aplicación Móvil"
+        }
+      ],
+      "id": "55a7"
+    },
+    {
+      "nombre": "Laura",
+      "apellido": "Fernandez",
+      "proyectos": [
+        {
+          "nombre": "Aplicación de eCommerce"
+        },
+        {
+          "nombre": "Sistema de Inventario"
+        },
+        {
+          "nombre": "Plataforma de Marketing"
+        }
+      ],
+      "id": "9233"
+    }
+  ],
+  "proyectos": [
+    {
+      "nombre": "Sistema de Gestión",
+      "duracion": 12,
+      "dificultad": "alta",
+      "id": "b400"
+    },
+    {
+      "nombre": "Plataforma Web",
+      "duracion": 8,
+      "dificultad": "media",
+      "id": "d050"
+    },
+    {
+      "nombre": "Aplicación Móvil",
+      "duracion": 10,
+      "dificultad": "alta",
+      "id": "233d"
+    }
+  ],
+  "tareas": [
+    {
+      "nombre": "Desarrollo Backend",
+      "proyecto": "Sistema de Gestión",
+      "estado": "en progreso",
+      "id": "cf92"
+    },
+    {
+      "nombre": "Diseño Frontend",
+      "proyecto": "Plataforma Web",
+      "estado": "completado",
+      "id": "c8d9"
+    },
+    {
+      "nombre": "Pruebas y QA",
+      "proyecto": "Aplicación Móvil",
+      "estado": "pendiente",
+      "id": "956c"
+    }
+  ]
+}
